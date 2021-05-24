@@ -1,6 +1,6 @@
 const GameOver = (props) => {
 
-    const whatToShow = <div>Game Over</div>
+    let whatToShow = <div>Game Over</div>
 
     if(parseInt(props.scorePercent) === 100)
     {
