@@ -1,23 +1,59 @@
-import logo from './logo.svg';
+import React, {Component, useState} from 'react'
 import './App.css';
 
-function App() {
+//Notes:
+// Handle scores in their own Component, share 
+// Send back GameOver and HowMuchScored function handlers to conditionally render game over page.
+
+//https://drive.google.com/drive/folders/1iB8i2Dv9mdi0cDikz6kYfBcLqwy02nDq?usp=sharing - Upload files here
+
+
+
+const App = () => {
+
+  //start progress over
+  const [gameState, setGameState] = useState('start')
+  const [logoGame, setLogoGame] = useState(false)
+  const [playerGame, setPlayerGame] = useState(false)
+
+  const logoQuizHandler = () => {
+    setLogoGame(true)
+    setGameState('progress')
+  }
+
+  const playerQuizHandler = () => {
+    setPlayerGame(true)
+    setGameState('progress')
+  }
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {
+        gameState === 'start' && (
+        <>
+        Welcome to Football Quiz<br/>
+        <button onClick={logoQuizHandler}>Logo Quiz</button><br/>
+        <button onClick={playerQuizHandler}>Player Quiz</button>
+        </>
+        )
+      }
+      {
+        (gameState === 'progress' && logoGame) && (
+          <h2>I wanna play logo</h2>
+        ) 
+      }
+      {
+        (gameState === 'progress' && playerGame) && (
+          <h2>I wanna play player</h2>
+        ) 
+      }
+      {
+        (gameState === 'over') && (
+          <h2>Game Over</h2>
+        ) 
+      }
     </div>
   );
 }
