@@ -4,7 +4,7 @@ const Question = (props) => {
 
     return(
         <div>
-            <img src={imgLink} alt="playerImage"/>
+            <img src={imgLink} alt="playerImage" style={{width: '30%'}}/>
             <h4>{props.fact}</h4>
         </div>
     )

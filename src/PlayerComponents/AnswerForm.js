@@ -5,7 +5,7 @@ const AnswerForm = (props) => {
         const chosenOption = event.target.value;
         if(chosenOption === props.answer)
         {
-            console.log("Correct")
+            props.correctAnswer()
         }
         else
         {

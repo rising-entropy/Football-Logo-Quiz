@@ -32,11 +32,17 @@ const PlayerGame = () => {
 
     const [questionNumber, setQuestionNumber] = useState(0)
 
+    const correctAnswer = () => {
+        setQuestionNumber(prev => {
+            return prev + 1
+        })
+    }
+
     return(
         <>
         {console.log(questions[questionNumber])}
         <Score totalQuestions={questions.length} currentScore={questionNumber}/>
-        <QuestionAnswer questionInstance={questions[questionNumber]} />
+        <QuestionAnswer questionInstance={questions[questionNumber]} correctAnswer={correctAnswer}/>
         </>
     )
 
