@@ -1,5 +1,8 @@
-
+import Score from './Score'
+import QuestionAnswer from './QuestionAnswer'
 let questions = require('../questions/PlayerQuestions.json');
+
+
 
 const shuffle = (array)=> {
     let currentIndex = array.length,
@@ -28,7 +31,8 @@ const PlayerGame = () => {
 
     return(
         <>
-        {console.log(questions)}
+        <Score totalQuestions={questions.length}/>
+        <QuestionAnswer/>
         </>
     )
 
