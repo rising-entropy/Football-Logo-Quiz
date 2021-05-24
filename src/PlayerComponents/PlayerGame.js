@@ -28,12 +28,20 @@ for(let question of questions)
     question.options = shuffle(question.options)
 }
 
-const PlayerGame = () => {
+const PlayerGame = (props) => {
 
     const [questionNumber, setQuestionNumber] = useState(0)
 
     const correctAnswer = () => {
         setQuestionNumber(prev => {
+
+            if((prev+1) === questions.length)
+            {
+                //props.getScorePercent(100);
+                props.gameOverChangeHandler();
+                return;
+            }
+
             return prev + 1
         })
     }

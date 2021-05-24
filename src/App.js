@@ -1,6 +1,7 @@
 import React, {Component, useState} from 'react'
 import './App.css';
 import PlayerGame from './PlayerComponents/PlayerGame'
+import GameOver from './PlayerComponents/GameOver'
 
 //Notes:
 // Handle scores in their own Component, share 
@@ -16,18 +17,25 @@ const App = () => {
   const [gameState, setGameState] = useState('start')
   const [logoGame, setLogoGame] = useState(false)
   const [playerGame, setPlayerGame] = useState(false)
+  const[scorePercent, setScorePercent] = useState('')
+
+  const getScorePercent = (value) => {
+    setScorePercent(value)
+  }
 
   const logoQuizHandler = () => {
     setLogoGame(true)
     setGameState('progress')
   }
 
+  const gameOverChangeHandler = () => {
+    setGameState('over')
+  }
+
   const playerQuizHandler = () => {
     setPlayerGame(true)
     setGameState('progress')
   }
-
-
 
   return (
     <div>
@@ -47,12 +55,12 @@ const App = () => {
       }
       {
         (gameState === 'progress' && playerGame) && (
-          <PlayerGame/>
+          <PlayerGame getScorePercent={getScorePercent} gameOverChangeHandler={gameOverChangeHandler}/>
         ) 
       }
       {
         (gameState === 'over') && (
-          <h2>Game Over</h2>
+          <GameOver scorePercent={scorePercent}/>
         ) 
       }
     </div>
