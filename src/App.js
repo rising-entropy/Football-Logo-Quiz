@@ -1,15 +1,6 @@
 import React, {Component, useState} from 'react'
 import './App.css';
 import PlayerGame from './PlayerComponents/PlayerGame'
-import GameOver from './PlayerComponents/GameOver'
-
-//Notes:
-// Handle scores in their own Component, share 
-// Send back GameOver and HowMuchScored function handlers to conditionally render game over page.
-
-//https://drive.google.com/drive/folders/1iB8i2Dv9mdi0cDikz6kYfBcLqwy02nDq?usp=sharing - Upload files here
-
-
 
 const App = () => {
 
