@@ -1,8 +1,9 @@
 import Score from './Score'
 import QuestionAnswer from './QuestionAnswer'
+import {useState} from 'react'
+
+
 let questions = require('../questions/PlayerQuestions.json');
-
-
 
 const shuffle = (array)=> {
     let currentIndex = array.length,
@@ -29,10 +30,13 @@ for(let question of questions)
 
 const PlayerGame = () => {
 
+    const [questionNumber, setQuestionNumber] = useState(0)
+
     return(
         <>
-        <Score totalQuestions={questions.length}/>
-        <QuestionAnswer/>
+        {console.log(questions[questionNumber])}
+        <Score totalQuestions={questions.length} currentScore={questionNumber}/>
+        <QuestionAnswer questionInstance={questions[questionNumber]} />
         </>
     )
 

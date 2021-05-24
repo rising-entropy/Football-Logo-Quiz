@@ -1,10 +1,11 @@
-const Question = () => {
+const Question = (props) => {
 
+    const imgLink = "/questionImages/PlayerImages/"+props.imageLink 
 
     return(
         <div>
-            <h4>Question</h4>
-            <img src="pewds.png" alt="pewds.png"/>
+            <img src={imgLink} alt="playerImage"/>
+            <h4>{props.fact}</h4>
         </div>
     )
 }
