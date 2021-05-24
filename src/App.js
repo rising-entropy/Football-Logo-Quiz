@@ -17,19 +17,10 @@ const App = () => {
   const [gameState, setGameState] = useState('start')
   const [logoGame, setLogoGame] = useState(false)
   const [playerGame, setPlayerGame] = useState(false)
-  const[scorePercent, setScorePercent] = useState('')
-
-  const getScorePercent = (value) => {
-    setScorePercent(value)
-  }
 
   const logoQuizHandler = () => {
     setLogoGame(true)
     setGameState('progress')
-  }
-
-  const gameOverChangeHandler = () => {
-    setGameState('over')
   }
 
   const playerQuizHandler = () => {
@@ -55,12 +46,7 @@ const App = () => {
       }
       {
         (gameState === 'progress' && playerGame) && (
-          <PlayerGame getScorePercent={getScorePercent} gameOverChangeHandler={gameOverChangeHandler}/>
-        ) 
-      }
-      {
-        (gameState === 'over') && (
-          <GameOver scorePercent={scorePercent}/>
+          <PlayerGame/>
         ) 
       }
     </div>

@@ -9,11 +9,14 @@ const QuestionAnswer = (props) => {
     const correctAns = () => {
         props.correctAnswer()
     }
+    const wrongAns = () => {
+        props.wrongAnswer()
+    }
 
     return(
         <div>
             <Question imageLink={theQuestion.imageLink} fact={theQuestion.fact}/>
-            <AnswerForm options={theQuestion.options} answer={theQuestion.answer} correctAnswer={correctAns}/>
+            <AnswerForm options={theQuestion.options} answer={theQuestion.answer} correctAnswer={correctAns} wrongAnswer={wrongAns}/>
         </div>
     )
 

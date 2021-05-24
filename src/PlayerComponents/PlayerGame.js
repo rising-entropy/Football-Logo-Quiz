@@ -1,6 +1,7 @@
 import Score from './Score'
 import QuestionAnswer from './QuestionAnswer'
 import {useState} from 'react'
+import GameOver from './GameOver'
 
 
 let questions = require('../questions/PlayerQuestions.json');
@@ -31,14 +32,16 @@ for(let question of questions)
 const PlayerGame = (props) => {
 
     const [questionNumber, setQuestionNumber] = useState(0)
+    const[scorePercent, setScorePercent] = useState('')
+    const[gameOver, setGameOver] = useState(false)
 
     const correctAnswer = () => {
         setQuestionNumber(prev => {
 
             if((prev+1) === questions.length)
             {
-                //props.getScorePercent(100);
-                props.gameOverChangeHandler();
+                setScorePercent(100)
+                setGameOver(true)
                 return;
             }
 
@@ -46,12 +49,21 @@ const PlayerGame = (props) => {
         })
     }
 
+    const wrongAnswer = () => {
+        setScorePercent(parseInt(questionNumber/questions.length))
+        setGameOver(true)
+    }
+
     return(
-        <>
-        {console.log(questions[questionNumber])}
-        <Score totalQuestions={questions.length} currentScore={questionNumber}/>
-        <QuestionAnswer questionInstance={questions[questionNumber]} correctAnswer={correctAnswer}/>
-        </>
+        <div>
+        { !gameOver ?
+            <div>
+                <Score totalQuestions={questions.length} currentScore={questionNumber}/>
+                <QuestionAnswer questionInstance={questions[questionNumber]} correctAnswer={correctAnswer} wrongAnswer={wrongAnswer}/>
+            </div>
+        : <GameOver scorePercent={scorePercent}/>
+        }
+        </div>
     )
 
 }
