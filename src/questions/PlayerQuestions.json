@@ -3,100 +3,70 @@
         "id": 1,
         "imageLink": "https://drive.google.com/file/d/1_tf-6dz5nZqrdySRsKzGmIfL7LpR0FZi/view?usp=sharing",
         "fact": "He was rejected by Arsenal for being overweight.",
-        "option1": "Harry Kane",
-        "option2": "Kylian Mbappe",
-        "option3": "Patrick Bamford",
-        "option4": "Danny Ings",
+        "options": ["Harry Kane", "Kylian Mbappe", "Patrick Bamford", "Danny Ings"],
         "answer": "Harry Kane"
     },
     {
         "id": 2,
         "imageLink": "https://drive.google.com/file/d/1mvc6O1O1l52wzthzNb5R74eOoi-3QBRD/view?usp=sharing",
         "fact": "he broke the world record for longest standing jump for five-year olds when he was, well, five years old.",
-        "option1": "Jadon Sancho",
-        "option2": "Tammy Abraham",
-        "option3": "Erling Halaand",
-        "option4": "Lautaro Martinez",
+        "options": ["Jadon Sancho", "Tammy Abraham", "Erling Halaand", "Lautaro Martinez"],
         "answer": "Erling Halaand"
     },
     {
         "id": 3,
         "imageLink": "https://drive.google.com/file/d/10eomtBQxlZvWniCBqByKnnDkTWd8YOpC/view?usp=sharing",
         "fact": "He is the most expensive player in the history of football when his cumulative transfer fee is taken into account.",
-        "option1": "Neymar Jr.",
-        "option2": "Zlatan Ibrahimovic",
-        "option3": "Didier Drogba",
-        "option4": "Fede Valverde",
+        "options": ["Neymar Jr.", "Zlatan Ibrahimovic", "Didier Drogba", "Fede Valverde"],
         "answer": "Zlatan Ibrahimovic"
     },
     {
         "id": 4,
         "imageLink": "https://drive.google.com/file/d/197E4PVVfSLwagXHS295hCQGvHqGRt-4S/view?usp=sharing",
         "fact": "His nickname is 'The Forbidden Fruit'.",
-        "option1": "Eden Hazard",
-        "option2": "Mariano Diaz",
-        "option3": "Karim Benzema",
-        "option4": "David Beckham",
+        "options": ["Eden Hazard", "Mariano Diaz", "Karim Benzema", "David Beckham"],
         "answer": "Eden Hazard"
     },
     {
         "id": 5,
         "imageLink": "https://drive.google.com/file/d/1yJgfJ9MfRI0NAVc80RFNvRn_5hH2a4ND/view?usp=sharing",
-        "fact": "His nickname is 'El Matador'",
-        "option1": "Axel Witsel",
-        "option2": "Marouane Fellaini",
-        "option3": "Ronaldinho",
-        "option4": "Edinson Cavani",
+        "fact": "His nickname is 'El Matador'.",
+        "options": ["Axel Witsel", "Marouane Fellaini", "Ronaldinho", "Edinson Cavani"],
         "answer": "Edinson Cavani"
     },
     {
         "id": 6,
         "imageLink": "https://drive.google.com/file/d/1KxY7zD8dpywN3sujf_8885J7jxl2DSUT/view?usp=sharing",
         "fact": "His biography is titled 'Keep It Simple'",
-        "option1": "Oscar",
-        "option2": "Kevin De Bruyne",
-        "option3": "Mesut Ozil",
-        "option4": "Mats Hummels",
+        "options": ["Oscar", "Kevin De Bruyne", "Mesut Ozil", "Mats Hummels"],
         "answer": "Kevin De Bruyne"
     },
     {
         "id": 7,
         "imageLink": "https://drive.google.com/file/d/1O-pfTwmjEbUHJC8AnrKuBQQXqY0kA9LR/view?usp=sharing",
         "fact": "His nickname is 'The Fridge'.",
-        "option1": "Dayot Upamecano",
-        "option2": "Harry Maguire",
-        "option3": "Lucas Digne",
-        "option4": "John Stones",
+        "options": ["Dayot Upamecano", "Harry Maguire", "Lucas Digne", "John Stones"],
         "answer": "Harry Maguire"
     },
     {
         "id": 8,
         "imageLink": "https://drive.google.com/file/d/1PKyVCAce7NiILwoKDo5hnLxDjNK0RiHW/view?usp=sharing",
         "fact": "He is deemed to be the best transfer in Premier League history.",
-        "option1": "Che Adams",
-        "option2": "Sergio Aguero",
-        "option3": "Amad Diallo",
-        "option4": "Jamie Vardy",
+        "options": ["Che Adams", "Sergio Aguero", "Amad Diallo", "Jamie Vardy"],
         "answer": "Jamie Vardy"
     },
     {
         "id": 9,
         "imageLink": "https://drive.google.com/file/d/1nFZcNlYpe7c-DTBOtH-6tyJp7wTFiI8-/view?usp=sharing",
         "fact": "She's also a New York Times' best-selling author",
-        "option1": "Meghan Rapinoe",
-        "option2": "Alex Morgan",
-        "option3": "Pernille Harder",
-        "option4": "Lucy Bronze",
+        "options": ["Meghan Rapinoe", "Alex Morgan", "Pernille Harder","Lucy Bronze"],
         "answer": "Alex Morgan"
     },
     {
         "id": 10,
         "imageLink": "https://drive.google.com/file/d/1kiIAxhyDaMBrmVt0QZb_2SdXijs2IyLT/view?usp=sharing",
         "fact": "He and his wife are nicknamed the 'Polish Beckhams'",
-        "option1": "Piotr Zielinski",
-        "option2": "Lukasz Piszczek",
-        "option3": "Theo Hazard",
-        "option4": "Robert Lewandowski",
+        "options": ["Piotr Zielinski", "Lukasz Piszczek", "Theo Hazard", "Robert Lewandowski"],
         "answer": "Robert Lewandowski"
     }
 ]

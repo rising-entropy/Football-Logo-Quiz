@@ -1,5 +1,6 @@
 import React, {Component, useState} from 'react'
 import './App.css';
+import PlayerGame from './PlayerComponents/PlayerGame'
 
 //Notes:
 // Handle scores in their own Component, share 
@@ -46,7 +47,7 @@ const App = () => {
       }
       {
         (gameState === 'progress' && playerGame) && (
-          <h2>I wanna play player</h2>
+          <PlayerGame/>
         ) 
       }
       {
