@@ -68,5 +68,145 @@
         "fact": "He and his wife are nicknamed the 'Polish Beckhams'",
         "options": ["Piotr Zielinski", "Lukasz Piszczek", "Theo Hazard", "Robert Lewandowski"],
         "answer": "Robert Lewandowski"
+    },
+    {
+        "id": 11,
+        "imageLink": "11.png",
+        "fact":"She played for Bayern Munich, Netherlands and Aresnal.",
+        "options":["Lydia Williams", "Vivianne Miedema", "Sam Kerr", "Kim Little"],
+        "answer": "Vivianne Miedema"
+    },
+    {
+        "id": 12,
+        "imageLink": "12.png",
+        "fact":"He has represented Portugal at every level - from under-16 to the senior squad",
+        "options":["Ruben Dias", "Aymeric Laporte", "Rafa", "Angelino"],
+        "answer": "Ruben Dias"
+    },
+    {
+        "id": 13,
+        "imageLink":"13.png",
+        "fact":"His childhood idol was Kaka",
+        "options":["Pablo Aimar", "Carlos Vinicius", "Dimitar Berbatov", "Joao Felix"],
+        "answer": "Joao Felix"
+    },
+    {
+        "id": 14,
+        "imageLink":"14.png",
+        "fact":"He was a part of Real Madrid Castilla when they won the Segunda Division B in 2011-2012",
+        "options":["Vinicius Jr.", "Lucas Vazquez", "Raphael Varane", "Casemiro"],
+        "answer": "Lucas Vazquez"
+    },
+    {
+        "id": 15,
+        "imageLink":"15.png",
+        "fact":"He is nicknamed 'Ciro' and is a Napoli legend",
+        "options":["Diego Maradonna", "Dries Mertens", "Gonzalo Higuain", "Alex Sandro"],
+        "answer": "Dries Mertens"
+    },
+    {
+        "id": 16,
+        "imageLink":"16.png",
+        "fact":"He is nicknamed as the Assist-King",
+        "options":["Mario Gotze", "Mesut Ozil", "Marco Reus", "Toni Kroos"],
+        "answer": "Mesut Ozil"
+    },
+    {
+        "id": 17,
+        "imageLink":"17.png",
+        "fact":"He holds the record for the most goals scored for a club in the Premier League",
+        "options":["Wayne Rooney", "Robin Van Persie", "Sergio Aguero", "Arjen Robben"],
+        "answer": "Sergio Aguero"
+    },
+    {
+        "id": 18,
+        "imageLink":"18.png",
+        "fact":"Three days before his 16th birthday, he received his first call-up to the AC Milan first team",
+        "options":["Gianluigi Donnarumma", "Ederson Moraes", "Gianluigi Buffon", "Wojciech Szczesny"],
+        "answer": "Gianluigi Donnarumma"
+    },
+    {
+        "id": 19,
+        "imageLink":"19.png",
+        "fact":"He was the top goal scorer in Copa Del Rey in 2017",
+        "options":["Yunus Musah", "Ben Yedder", "Pau Torres", "Carlos Soler"],
+        "answer": "Ben Yedder"
+    },
+    {
+        "id": 20,
+        "imageLink":"20.png",
+        "fact":"He is nicknamed as 'Captain America'",
+        "options":["Hakim Ziyech", "Inaki Williams", "Mason Mount", "Christian Pulisic"],
+        "answer": "Christian Pulisic"
+    },
+    {
+        "id": 21,
+        "imageLink":"21.png",
+        "fact":"He became an Arsenal record-breaking transfer when he made the switch from BVB",
+        "options":["Pierre-Emerick Aubameyang", "Alexander Lacazette", "Emile Smith-Rowe", "Bukayo Saka"],
+        "answer": "Pierre-Emerick Aubameyang"
+    },
+    {
+        "id": 22,
+        "imageLink":"22.png",
+        "fact":"He became the first player born in the 2000's to score in a Champions League",
+        "options":["Ferran Torres", "Phil Foden", "Jose Gaya", "Dennis Cheryshev"],
+        "answer": "Ferran Torres"
+    },
+    {
+        "id": 23,
+        "imageLink":"23.png",
+        "fact":"He has a dual-nationality of Portugal, Brazil",
+        "options":["Moise Kean", "Kimpembe", "Marco Verratti", "Marquinhos"],
+        "answer": "Marquinhos"
+    },
+    {
+        "id": 24,
+        "imageLink":"24.png",
+        "fact":"He was the first teenager to score in a World Cup final since 1958",
+        "options":["Kevin Volland", "Kylian Mbappe", "Eduardo Camavinga", "Memphis Depay"],
+        "answer": "Kylian Mbappe"
+    },
+    {
+        "id": 25,
+        "imageLink":"25.png",
+        "fact":"He is nicknamed as 'Egyptian Messi'",
+        "options":["Mohamed Salah", "Riyad Mahrez", "Sadio Mane", "Ben Godfrey"],
+        "answer": "Mohamed Salah"
+    },
+    {
+        "id": 26,
+        "imageLink":"26.png",
+        "fact":"She played cage football in her childhood with her 5 brothers",
+        "options":["Chloe Kelly", "Alex Greenwood", "Caroline Weir", "Steph Houghton"],
+        "answer": "Chloe Kelly"
+    },
+    {
+        "id": 27,
+        "imageLink":"27.png",
+        "fact":"She is a four-time winner of the PFA Women's Footballer of the Year Award",
+        "options":["Niamh Charles", "Samantha Kerr", "Millie Bright", "Fran Kirby"],
+        "answer": "Samantha Kerr"
+    },
+    {
+        "id": 28,
+        "imageLink":"28.png",
+        "fact":"He is the first Asian player to join Liverpool",
+        "options":["Takefusa Kubo", "Shinji Kagawa", "Takumi Minamino", "Yuya Osako"],
+        "answer": "Takumi Minamino"
+    },
+    {
+        "id": 29,
+        "imageLink":"29.png",
+        "fact":"Defensive force behind Lile's Ligue-1 title in 2020-21 season",
+        "options":["Jose Fonte", "Alvaro Gonzalez", "Jason Denayer", "Sven Botman"],
+        "answer": "Sven Botman"
+    },
+    {
+        "id": 30,
+        "imageLink":"30.png",
+        "fact":"he holds the record for scoring the fastest goal in Olympic history by a male footballer",
+        "options":["Roberto Firmino", "Neymar Jr", "Alex Sanchez", "Alex Telles"],
+        "answer": "Neymar Jr"
     }
 ]
