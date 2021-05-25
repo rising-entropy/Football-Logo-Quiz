@@ -1,6 +1,7 @@
 import React, {Component, useState} from 'react'
 import './App.css';
 import PlayerGame from './PlayerComponents/PlayerGame'
+import LogoGame from './LogoComponents/LogoGame'
 
 const App = () => {
 
@@ -32,7 +33,7 @@ const App = () => {
       }
       {
         (gameState === 'progress' && logoGame) && (
-          <h2>I wanna play logo</h2>
+          <LogoGame/>
         ) 
       }
       {
