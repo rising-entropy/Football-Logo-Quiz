@@ -50,7 +50,7 @@ const PlayerGame = (props) => {
     }
 
     const wrongAnswer = () => {
-        setScorePercent(parseInt(questionNumber/questions.length))
+        setScorePercent(parseInt((questionNumber*100)/questions.length))
         setGameOver(true)
     }
 
@@ -61,7 +61,7 @@ const PlayerGame = (props) => {
                 <Score totalQuestions={questions.length} currentScore={questionNumber}/>
                 <QuestionAnswer questionInstance={questions[questionNumber]} correctAnswer={correctAnswer} wrongAnswer={wrongAnswer}/>
             </div>
-        : <GameOver scorePercent={scorePercent}/>
+        : <GameOver scorePercent={scorePercent} score={questionNumber} questionCount={questions.length}/>
         }
         </div>
     )

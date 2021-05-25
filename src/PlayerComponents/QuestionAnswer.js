@@ -19,7 +19,6 @@ const QuestionAnswer = (props) => {
             <AnswerForm options={theQuestion.options} answer={theQuestion.answer} correctAnswer={correctAns} wrongAnswer={wrongAns}/>
         </div>
     )
-
 }
 
 export default QuestionAnswer;
