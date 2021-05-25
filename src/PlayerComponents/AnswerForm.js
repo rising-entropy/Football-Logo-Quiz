@@ -9,7 +9,7 @@ const AnswerForm = (props) => {
         }
         else
         {
-            console.log("Wrong")
+            props.wrongAnswer()
         }
     }
 
