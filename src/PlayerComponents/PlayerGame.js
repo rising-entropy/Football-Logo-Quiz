@@ -57,7 +57,7 @@ const PlayerGame = (props) => {
     return(
         <div>
         { !gameOver ?
-            <div>
+            <div className="container container-fluid">
                 <Score totalQuestions={questions.length} currentScore={questionNumber}/>
                 <QuestionAnswer questionInstance={questions[questionNumber]} correctAnswer={correctAnswer} wrongAnswer={wrongAnswer}/>
             </div>

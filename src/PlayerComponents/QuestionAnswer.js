@@ -14,7 +14,7 @@ const QuestionAnswer = (props) => {
     }
 
     return(
-        <div>
+        <div className="container container-fluid">
             <Question imageLink={theQuestion.imageLink} fact={theQuestion.fact}/>
             <AnswerForm options={theQuestion.options} answer={theQuestion.answer} correctAnswer={correctAns} wrongAnswer={wrongAns}/>
         </div>
